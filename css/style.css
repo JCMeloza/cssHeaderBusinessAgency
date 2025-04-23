@@ -260,7 +260,7 @@ textarea {
   padding-right: 16px;
   background-image: url("../img/woman@2x.jpg");
   background-position: top right;
-  background-size: 800px;
+  background-size: 825px;
   background-repeat: no-repeat;
   
 }
@@ -288,9 +288,7 @@ header nav ul {
   gap: 56px;
 }
 
-header nav ul li {
 
-}
 
 header nav ul a {
   font-family: "Poppins", sans-serif;
@@ -303,10 +301,87 @@ header nav ul a {
 }
 .hero_content{
   max-width: 60%;;
+  margin-bottom: 25px;
+}
+
+.hero_content h1 span{
+  color:#7FDAD3;
 }
 .hero h1{
-  font-size: 120px;
+  font-size: 123px;
   font-family: 'Bebas Neue', sans-serif;
   font-style:normal;
   line-height: 110px;
+  margin-bottom: 40px;
+  margin-top: 0px;
+}
+
+.hero .hero_content p {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: #909090;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 400;
+  max-width: 615px;
+  margin-bottom: 40px;
+} 
+
+.hero_content a {
+  display: inline-block;
+  background-color: #7FDAD3;
+  color: white;
+  font-family: "poppins", sans-serif;
+  padding: 12px 18px;
+  text-decoration: none;
+  
+}
+
+.hero_number{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 450px;
+  margin-bottom: 40px;
+}
+.hero_number div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 35px;
+  color: #424241;
+}
+.hero_number div span{
+  font-size: 15px;
+  color: #909090;
+}
+
+.categories{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.categories article {
+  background-color: white;
+  padding: 32px;
+}
+
+.categories article h3 {
+  font-family: poppins, sans-serif;
+  font-size: 20px;
+  color: #424241;
+  font-style: normal;
+  line-height: normal;
+  margin: 8px 0;
+}
+
+.categories article p {
+  font-family: poppins, sans-serif;
+  font-size: 12px;
+  color: #909090;
+  font-style: normal;
+  line-height: normal;
+  margin: 8px 0;
 }
